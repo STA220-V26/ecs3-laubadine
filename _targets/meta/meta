@@ -1,0 +1,13 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+data|stem|79ac796b9d57e900|87f5902ed953433b|2c530c1562a7fbd1|33550471||t20521.5723760781s|s1743b|1743|rds|local|vector|||0.01||
+model|stem|90ae394a2e86538a|693e4c90d947b5eb|6b1c0d8cb3e6b67d|808688450||t20521.572377326s|s108b|108|rds|local|vector|||0||
+patients_raw|stem|e66d6fe18bc9d42c|dc65c99dc62befdb|ca751572429b291d|1336686124||t20521.5938960291s|s580966b|580966|rds|local|vector|||1.87||
+download|stem|fd0a57072a41eb19|4013754addf64b42|c1fc43efcd34b347|-1102952235||t20521.5938970343s|s44b|44|rds|local|vector|||0.01||
+patients_clean|stem|fdc9a75c585552ac|9fdacc4030534479|24a3a58c81eeb601|1359923953||t20521.5939132351s|s580708b|580708|rds|local|vector|||1.07||
+patients_final|stem|4016d68b6349b1a3|cce8aa835c15801d|2eecd81ba4603c26|321985204||t20521.5939161436s|s580794b|580794|rds|local|vector|||0||
+download_data|function|56a05780a063dbc9
+validate_patients|function|6c3214588aa932ba
+clean_patients|function|46a9f13ecceb208c
+convert_factors|function|b84fc5c947cf95ba
+load_patients|function|829d1c7d0d0b3a7d
+validation|stem|23d2998358bac8f4|3b9931013f3bedd2|9a3a0b65a7919aec|-1446879880||t20521.5962384007s|s6397533b|6397533|rds|local|vector|||3.33||
